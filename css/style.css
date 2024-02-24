@@ -2,6 +2,9 @@ body {
     margin: 0;
     align-items: center;
 }
+main {
+    width: 360px;
+}
 h1 {
     text-align: center;
 }
@@ -21,38 +24,38 @@ nav li {
 }
 nav li a {
     color: black;
-    font-size:8px;
+    font-size:10px;
     font-family: 'Times New Roman', Times, serif;
     background-color: white;
     display: block;
 
     text-decoration: none;
     text-align: center;
-    padding: 9px;
+    padding: 8px;
 }
 .right {
-    padding: 5px;
+    padding: 4px;
     padding-left: 1px;
     padding-right: 1px;
 }
 .left {
-    padding: 7px;
+    padding: 4px;
     padding-left: 1px;
     padding-right: 1px;
 }
 .black {
-    font-size: 4px;
+    font-size: 10px;
     color: white;
     background-color: black;
 }
 nav button {
     color: black;
-    font-size:8px;
+    font-size:10px;
     font-family: 'Times New Roman', Times, serif;
     background-color: white;
 
     border:1px solid black;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 4px;
 }
 div button {
@@ -68,8 +71,8 @@ nav li a:hover {
 }
 .vl {
     border-left: 1px solid black;
-    height: 14px;
-    margin: 6px 0px;
+    height: 10px;
+    margin: 8px 0px;
 }
 main div {
     padding: 4px;
