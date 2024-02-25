@@ -71,9 +71,43 @@ nav li a:hover {
     border-left: 1px solid black;
     height: 10px;
     margin: 8px 0px;
+    padding: 0px;
 }
 main div {
     padding: 4px;
     margin: 4px;
     color: white;
     background-color: #777}
+#info:hover::after {
+    content: 'nfo';
+}    
+#arp:hover::after {
+    content: ' Arpreggios';
+}
+#triad:hover::after {
+    content: ' Triads';
+}
+#tetrad:hover::after {
+    content: ' Tetrads';
+}
+#clear:hover::after {
+    content: ' Clear';
+}
+#dom:hover::after {
+    content: ' Dominant';
+}
+#sta:hover::after {
+    content: ' Stable';
+}
+#drop:hover::before {
+    content: 'Drop ';
+}
+#alt:hover::after {
+    content: ' Alternative';
+}
+#ths:hover::after {
+    content: ' tuning';
+}
+#cycle:hover::after {
+    content: ' Cycle';
+}
