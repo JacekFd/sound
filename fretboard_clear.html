@@ -7,25 +7,26 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
 </head>
 <body>
-    <a id="top"></a>
     <main>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li style="float:right"><a href="#bottom" style="padding: 4px;"><button id="info">ℹ️</button></a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="fretboard.html">Fretboard</a></li>
-            <li style="float:right"><a href="fretboard.html" class="right"><button style="border: black solid 2px; padding: 4px;">↱↲ Clear</button></a></li>
-            <li style="float:right"><a href="fretboard_arpreggios.html" class="right"><button id="arp">◰</button></a></li>
-            <li style="float:right"><a href="fretboard_tetrads_4ths.html" class="right"><button id="tetrad">◇</button></a></li>
-            <li style="float:right"><a href="fretboard_triads.html" class="right"><button id="triad">▽</button></a></li>
+            <li><a href="index.html" class="path">Home</a></li>
+            <li style="float:right" id="top"><a href="#bottom">About</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="fretboard.html" class="path">Fretboard</a></li>
+        </ul>
+        <ul>
+            <li><a href="fretboard.html" class="on">↱↲ Clear</a></li>
+            <li><a href="fretboard_arpreggios.html" id="arp">◰</a></li>
+            <li><a href="fretboard_tetrads_4ths.html" id="tetrad">◇</a></li>
+            <li><a href="fretboard_triads.html" id="triad">▽</a></li>
         </ul>
     </nav>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1080 1840" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,0,-2040)">
-        <g id="fretboard_clear" transform="matrix(0.5625,0,0,0.958333,-698.794,2040)">
+    <g transform="matrix(1,0,0,1,0,-1960)">
+        <g id="fretboard_clear" transform="matrix(0.5625,0,0,0.958333,-698.794,1960)">
             <rect x="1242.3" y="0" width="1920" height="1920" style="fill:none;"/>
             <g id="content" transform="matrix(7.11111,0,0,4.17391,1266,-340.87)">
                 <g transform="matrix(0.25,0,0,0.25,-3.33333,140.417)">
@@ -3025,8 +3026,7 @@
         </g>
     </g>
 </svg>
-    </main>
-    <nav><ul><li style="float: none;"><a href="#top" style="padding: 16px"><button style="margin-left: auto; margin-right: auto;">Top</button></a></li></ul></nav>
-    <a id="bottom"></a>
+<nav><ul><li style="float: none;"><a href="#top" id="bottom">Top</a></li></ul></nav>
+</main>
 </body>
 </html>

@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 main {
     width: 360px;
@@ -8,10 +8,7 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-h1 {
-    text-align: center;
-}
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,95 +16,47 @@ ul {
 }
 nav li {
     float: left;
-}
-nav li a {
-    color: black;
-    font-size:10px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: white;
-    display: block;
-
     text-decoration: none;
-    text-align: center;
-    padding: 8px;
 }
-.right {
-    padding: 4px;
-    padding-left: 1px;
-    padding-right: 1px;
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    border-radius: 0.25em;
+    margin: 0.125em;
+    border: solid black;
+    border-width: 0.125em;
+    padding: 0.375em;
 }
-.left {
-    padding: 4px;
-    padding-left: 1px;
-    padding-right: 1px;
+.path {
+    border:none;
+    padding: 0.5em 0.25em;
+}
+.on {
+    border-width: 0.25em;
+    padding: 0.25em;
 }
 .black {
-    font-size: 10px;
-    color: white;
     background-color: black;
+    color: white;
 }
-nav button {
-    color: black;
-    font-size:10px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: white;
-
-    border:1px solid black;
-    border-radius: 2px;
-    padding: 4px;
-}
-div button {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: white;
-
-    border:1px solid black;
-    border-radius: 2px;
-}
-nav li a:hover {
+nav a:hover {
     background-color: #EEE;
 }
-.vl {
-    border-left: 1px solid black;
-    height: 10px;
-    margin: 8px 0px;
-    padding: 0px;
+.line {
+    border: solid;
+    border-width: 0.0625em;
+    height: 1em;
+    margin: 0.5em 0;
+    padding: 0;
 }
-main div {
-    padding: 4px;
-    margin: 4px;
-    color: white;
-    background-color: #777}
-#info:hover::after {
-    content: 'nfo';
-}    
-#arp:hover::after {
-    content: ' Arpreggios';
+.space {
+    height: 1em;
+    margin: 0.5em 0.125em;
+    padding: 0;
 }
-#triad:hover::after {
-    content: ' Triads';
-}
-#tetrad:hover::after {
-    content: ' Tetrads';
-}
-#clear:hover::after {
-    content: ' Clear';
-}
-#dom:hover::after {
-    content: ' Dominant';
-}
-#sta:hover::after {
-    content: ' Stable';
-}
-#drop:hover::before {
-    content: 'Drop ';
-}
-#alt:hover::after {
-    content: ' Alternative';
-}
-#ths:hover::after {
-    content: ' tuning';
-}
-#cycle:hover::after {
-    content: ' Cycle';
+#bottom {
+    margin-left: auto;
+    margin-right: auto;
 }
